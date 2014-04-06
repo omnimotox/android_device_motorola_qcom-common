@@ -231,7 +231,7 @@
     <integer name="config_carDockKeepsScreenOn">1</integer>
 
     <!-- Our amoled doesn't animate well. -->
-    <bool name="config_animateScreenLights">false</bool> 
+    <!-- <bool name="config_animateScreenLights">false</bool> -->
 
     <!-- We dont have different firmware for wifi modes, prevent reloading it -->
     <bool name="config_wifiApFirmwareReload">false</bool>
@@ -240,7 +240,7 @@
         on the headphone/microphone jack. When false use the older uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 
-    <integer name="config_undockedHdmiRotation">90</integer>
+    <!-- <integer name="config_undockedHdmiRotation">90</integer> -->
 
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
